@@ -7,15 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InteractiveDataDisplay.WPF"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{6E637A98-DA68-40CF-B194-56CEB99A57A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeatmapSample", "..\samples\HeatmapSample\HeatmapSample.csproj", "{A59C204A-01D9-41A4-BE67-64ECDB991560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeatmapSample", "..\samples\HeatmapSample\HeatmapSample.csproj", "{A59C204A-01D9-41A4-BE67-64ECDB991560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkersSample", "..\samples\MarkersSample\MarkersSample.csproj", "{4BEA4B4C-5B83-4FD7-B9BF-3AE4F1CC571F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkersSample", "..\samples\MarkersSample\MarkersSample.csproj", "{4BEA4B4C-5B83-4FD7-B9BF-3AE4F1CC571F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineGraphSample", "..\samples\LineGraphSample\LineGraphSample.csproj", "{284A7617-B70F-4A4A-B73A-1A8088B75926}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineGraphSample", "..\samples\LineGraphSample\LineGraphSample.csproj", "{284A7617-B70F-4A4A-B73A-1A8088B75926}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarChartSample", "..\samples\BarChartSample\BarChartSample.csproj", "{F36872BF-8818-4019-A207-2B381C33C370}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarChartSample", "..\samples\BarChartSample\BarChartSample.csproj", "{F36872BF-8818-4019-A207-2B381C33C370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncGraphsSample", "..\samples\SyncGraphsSample\SyncGraphsSample.csproj", "{0C4C6C54-F253-4FD2-8B38-75E476882A4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncGraphsSample", "..\samples\SyncGraphsSample\SyncGraphsSample.csproj", "{0C4C6C54-F253-4FD2-8B38-75E476882A4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{74A8DD84-030A-4768-BCD4-8612AE3DB5AB}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		nuget.config = nuget.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
